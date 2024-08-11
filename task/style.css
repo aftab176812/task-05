@@ -41,7 +41,11 @@ input {
 .cart img {
     padding-left: 10px;
 }
-
+.input i{
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+}
 /* Small screen adjustments */
 @media (max-width: 600px) {
     nav {
@@ -128,7 +132,7 @@ input {
 .categries {
     background-color: aliceblue;
     border: 1px solid wheat;
-    padding: 15px;
+    padding:  15px;
 }
 .categries h2{
     background-color: rgba(71, 71, 186, 0.804);
@@ -147,7 +151,24 @@ input {
     text-decoration: name;
     color: black;
 }
- .background-images{
-    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(black)), url(./images/imagesbackground.jpg)
-    
+ .background-images img{
+    width: 700px;
+    right: 500px;
+    padding-left: 150px;
  }
+.lptcell h2{
+    padding-left: 500px;
+}
+.lptcell img{
+    width: 1200px;
+    padding-left: 60px;
+    height: 600px;
+    border-radius: 10%;
+  
+}
+.lptcell img :hover{
+    border-color: brown;
+    color: black;
+    cursor: auto;
+    
+}
